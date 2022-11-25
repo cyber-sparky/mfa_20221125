@@ -194,11 +194,19 @@ footer{
 }
 #links > a {
     margin-right: 3%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     cursor: pointer;
 }
 .attribution{
     text-align: center;
     font-size: 30px;
     padding-bottom: 2%;
+}
+#icons{
+    margin-left: 43%;
+    padding-bottom: 3%;
+
+}
+#icons> img{
+    margin-left:2%;
 }
