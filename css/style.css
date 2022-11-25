@@ -15,7 +15,7 @@ header{
     top: 0;
     width: 1487px;
     height:900px;
-    background-image: url(images/desktop/image-header.jpg);
+    background-image: url(/images/desktop/image-header.jpg);
    background-repeat:no-repeat;
    background-size:cover;
    position: relative;
