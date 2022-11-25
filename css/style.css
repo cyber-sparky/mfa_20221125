@@ -1,15 +1,18 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 
 body{
     height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fraunces', serif;
+    font-family: Barlow;
+    font-weight: 600;
 
+}
+p{
+    font-size: 18px;
 }
 header{
     top: 0;
@@ -85,9 +88,33 @@ nav{
 #lrn_more{
     text-decoration:none;
     color:black;
+    position: absolute;
+    
+}
+hr{
+    background-color: hsl(51, 100%, 49%);
+    border: 5px solid hsl(51, 100%, 49%) ;
+    position: absolute;
+    padding-right: 110px;
+    margin-top:16px;
+    border-radius: 10px;
+    z-index: -1;
+
+}
+#para-1{
+    
+    width: 50%;
+    justify-content: end;
+    margin-left: 40%;  
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+#hr{
+    border: 5px solid black;
 }
 #inner_img_2{
-    width:127% ;
+    width:143.5% ;
 }
 #inner_txt_2{
     
@@ -101,7 +128,7 @@ nav{
 }
 #image{
     background-image: url(/images/desktop/image-graphic-design.jpg);
-    width: 53.2%;
+    width: 66%;
     height: 600px;
    background-repeat:no-repeat;
    background-size:cover;
@@ -112,4 +139,66 @@ nav{
    background-repeat:no-repeat;
    background-size:cover;
    position: relative;
+}
+.container_txt{
+    width: 50%;
+    margin-top: 50%;
+    text-align: center;
+    margin-left:25%;
+    
+}
+.container_txt > h1, .container_txt_1 > h1{
+    color:hsl(212, 27%, 19%);
+}
+.container_txt_1{
+
+    width: 50%;
+    margin-top:60%;
+    text-align: center;
+    margin-left:30%;
+}
+#client{
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 7%;
+}
+#avatar_logo{
+    border-radius: 50%;
+    width: 80px;
+}
+.faculty{
+    text-align: center;
+    margin: 5%;
+}
+.faculty > div{
+    margin-right: 30px;
+}
+#faculty_para{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: #90d4c5;
+}
+#sunny{
+
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+#links{
+    display: flex;
+    justify-content: center;
+}
+#links > a {
+    margin-right: 3%;
+    padding-bottom: 5%;
+    cursor: pointer;
+}
+.attribution{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 2%;
 }
